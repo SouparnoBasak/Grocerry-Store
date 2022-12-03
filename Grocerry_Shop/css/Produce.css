@@ -1,0 +1,59 @@
+.*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Century Gothic", sans-serif;
+}
+.Body{
+    background-color: blanchedalmond;
+}
+.NavBar{
+    height: 20px;
+    padding-bottom: 0px;
+}
+.NavList{
+    list-style-type: none;
+    padding:0;
+    overflow:hidden;
+}
+.NavList li{
+    float: left;
+    text-align: center;
+    font-size: 18px;
+}
+.NavList li a{
+    display: block;
+    padding-left: 110px;
+    border-right: 1px;
+}
+.TitleDiv{
+    height: 100px;
+    text-align: center;
+}
+.TitleDiv h1{
+    font-size: 100px;
+    font-weight: 200;
+    padding:0;
+    text-shadow: 2px 2px 5px black;
+}
+.TitleName{
+    float:center;
+    height:100px;
+    padding-bottom: 10px;
+}
+.Img{
+    display:flex;
+    justify-content: center;
+}
+.Img img{
+    height:200px;
+    width:300px;
+}
+.table{
+    border:1px;
+    display:flex;
+    justify-content: center;
+}
+.table td{
+    font-size:20px;
+}

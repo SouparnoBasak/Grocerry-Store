@@ -1,0 +1,97 @@
+.*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Century Gothic", sans-serif;
+}
+.Body{
+    background-color: blanchedalmond;
+}
+.NavBar{
+    height: 20px;
+    padding-bottom: 0px;
+}
+.NavList{
+    list-style-type: none;
+    padding:0;
+    overflow:hidden;
+}
+.NavList li{
+    float: left;
+    text-align: center;
+    font-size: 18px;
+}
+.NavList li a{
+    display: block;
+    padding-left: 110px;
+    border-right: 1px;
+}
+.TitleDiv{
+    height: 100px;
+    text-align: center;
+}
+.TitleDiv h1{
+    font-size: 100px;
+    font-weight: 200;
+    padding:0;
+    text-shadow: 2px 2px 5px black;
+}
+.TitleName{
+    float:center;
+    height:100px;
+    padding-bottom: 10px;
+}
+.title{
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 100;
+    text-shadow: 2px 2px 5px black;
+}
+.BakRow1{
+    height:250px;
+    display:flex;
+}
+.Bread{
+    flex:25%;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 30px;
+    text-align:center;
+}
+.Muffins{
+    flex:25%;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 30px;
+    text-align:center;
+}
+.Cookies{
+    flex:25%;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 30px;
+    text-align:center;
+}
+.Sticks{
+    flex:25%;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 30px;
+    text-align:center;
+}
+.Bread img{
+    height:200px;
+    width:100%;
+}
+.Muffins img{
+    height:200px;
+    width:100%;
+}
+.Cookies img{
+    height:200px;
+    width:100%;
+}
+.Sticks img{
+    height:200px;
+    width:100%;
+}

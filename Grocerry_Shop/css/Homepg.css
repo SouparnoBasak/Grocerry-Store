@@ -1,0 +1,121 @@
+.*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Century Gothic", sans-serif;
+}
+.Body{
+    background-color: blanchedalmond;
+}
+.NavBar{
+    height: 20px;
+    padding-bottom: 0px;
+}
+.NavList{
+    list-style-type: none;
+    padding:0;
+    overflow:hidden;
+    background-color: blanchedalmond;
+}
+.NavList li{
+    float: left;
+    text-align: center;
+    font-size: 18px;
+}
+.NavList li a{
+    display: block;
+    padding-left: 110px;
+    border-right: 1px;
+}
+.TitleDiv{
+    height: 200px;
+    text-align: center;
+}
+.TitleDiv h1{
+    font-size: 100px;
+    font-weight: 200;
+    padding:0;
+    text-shadow: 2px 2px 5px black;
+}
+.TitleName{
+    float:center;
+    height:100px;
+    padding-bottom: 10px;
+}
+.Motto{
+    float:center;
+    clear: left;
+    font-size: 50px;
+    font-style: oblique;
+    color: black;
+    text-shadow: 2px 2px 5px black;
+}
+.Shop1{
+    height: 200px;
+    display: flex;
+}
+.Writing{
+    flex:25%;
+    height: 200px;
+    font-size: 40px;
+    text-align: center;
+    font-weight:500;
+    padding-left: 5px;
+    text-shadow: 2px 2px 5px black;
+}
+.img1{
+    flex: 25%;  
+    padding-top: 5px;
+    padding-left:5px;
+    font-size: 30px;
+    text-align: center;
+}
+.img2{
+    flex: 25%;
+    padding-top: 5px;
+    padding-left:5px;
+    font-size: 30px;
+    text-align: center;
+}
+.img3{
+    flex: 25%;
+    padding-top: 5px;
+    padding-left:5px;
+    font-size: 30px;
+    text-align: center;
+}
+.img1 img{
+    height:150px;
+    width: 100%;
+}
+.img2 img{
+    height:150px;
+    width: 100%;
+}
+.img3 img{
+    height:150px;
+    width: 100%;
+}
+.Jump{
+    height: 300px;
+    display: flex;   
+}
+.Assurance{
+    height: 300px;
+    flex:75%;
+    font-size: 50px;
+    font-weight: 600;
+    text-align: justify;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-shadow: 2px 2px 5px black;
+}
+.img4{
+    height:300px;
+    flex:25%;
+    padding-left: 5px;
+}
+.img4 img{
+    height:300px;
+    width: 100%;
+}

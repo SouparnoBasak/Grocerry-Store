@@ -1,0 +1,97 @@
+.*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Century Gothic", sans-serif;
+}
+.Body{
+    background-color: blanchedalmond;
+}
+.NavBar{
+    height: 20px;
+    padding-bottom: 0px;
+}
+.NavList{
+    list-style-type: none;
+    padding:0;
+    overflow:hidden;
+}
+.NavList li{
+    float: left;
+    text-align: center;
+    font-size: 18px;
+}
+.NavList li a{
+    display: block;
+    padding-left: 110px;
+    border-right: 1px;
+}
+.TitleDiv{
+    height: 100px;
+    text-align: center;
+}
+.TitleDiv h1{
+    font-size: 100px;
+    font-weight: 200;
+    padding:0;
+    text-shadow: 2px 2px 5px black;
+}
+.TitleName{
+    float:center;
+    height:100px;
+    padding-bottom: 10px;
+}
+.title{
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: 100;
+    text-shadow: 2px 2px 5px black;
+}
+.DiaryRow1{
+    height:250px;
+    display:flex;
+}
+.Milk{
+    flex:25%;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 30px;
+    text-align:center;
+}
+.Butter{
+    flex:25%;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 30px;
+    text-align:center;
+}
+.Cheese{
+    flex:25%;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 30px;
+    text-align:center;
+}
+.Yogurt{
+    flex:25%;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-size: 30px;
+    text-align:center;
+}
+.Milk img{
+    height:200px;
+    width:100%;
+}
+.Butter img{
+    height:200px;
+    width:100%;
+}
+.Cheese img{
+    height:200px;
+    width:100%;
+}
+.Yogurt img{
+    height:200px;
+    width:100%;
+}
